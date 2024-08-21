@@ -44,9 +44,13 @@
 
           packages = {
             # Lets you run `nix run .` to start nixvim
+            inherit nvim;
             default = nvim;
           };
 
+          overlayAttrs = {
+            inherit (config.packages) jeezyvim;
+          };
         };
     };
 }
