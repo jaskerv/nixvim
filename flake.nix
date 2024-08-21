@@ -43,7 +43,7 @@
               # inherit (inputs) foo;
             };
           };
-          helixnvim = nixvim'.makeNixvimWithModule nixvimModule;
+          jononvim = nixvim'.makeNixvimWithModule nixvimModule;
         in
         {
           checks = {
@@ -53,12 +53,12 @@
 
           packages = {
             # Lets you run `nix run .` to start nixvim
-            inherit helixnvim;
-            default = helixnvim;
+            inherit jononvim;
+            default = jononvim;
           };
 
           overlayAttrs = {
-            inherit (config.packages) helixnvim;
+            inherit (config.packages) jononvim;
           };
         };
     };
