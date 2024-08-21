@@ -58,7 +58,7 @@
           };
 
           overlayAttrs = {
-            inherit (config.packages) jeezyvim;
+            inherit (config.packages) jononvim;
           };
         };
     };
