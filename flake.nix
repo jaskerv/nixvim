@@ -17,7 +17,6 @@
           allowUnfree = true;
 	};
       };
-    };
   in
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
