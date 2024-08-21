@@ -8,7 +8,17 @@
   };
 
   outputs =
-    { nixvim, flake-parts, ... }@inputs:
+    { nixvim, flake-parts, nixpkgs, ... }@inputs:
+  let
+    mkPkgs = system:
+      import nixpkgs {
+        inherit system;
+	config = {
+          allowUnfree = true;
+	};
+      };
+    };
+  in
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
@@ -22,12 +32,12 @@
       ];
 
       perSystem =
-        { pkgs, system, ... }:
+        { pkgs, system, config ... }:
         let
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
-            inherit pkgs;
+            pkgs = mkPkgs system;
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
