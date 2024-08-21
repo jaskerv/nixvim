@@ -47,9 +47,6 @@
             default = nvim;
           };
 
-	  overlayAttrs = {
-            inherit (config.packages) nvim;
-          };
         };
     };
 }
