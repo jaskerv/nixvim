@@ -1,4 +1,11 @@
 {
   # Import all your configuration modules here
-  imports = [ ./bufferline.nix ];
+  imports = [
+    ./mappings.nix
+    ./sets.nix
+    ./ui
+    ./treesitter
+    ./lsp
+    ./completion
+  ];
 }
