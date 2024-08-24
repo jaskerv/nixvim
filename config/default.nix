@@ -7,5 +7,6 @@
     ./treesitter
     ./lsp
     ./completion
+    ./util
   ];
 }
