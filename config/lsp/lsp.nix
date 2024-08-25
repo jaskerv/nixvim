@@ -2,10 +2,55 @@
   plugins.lsp = {
     enable = true;
     servers = {
-      nil-ls = {
-          enable = true;
-       };
+      # cssls = {
+      #   enable = true;
+      # };
+      docker-compose-language-service = {
+        enable = true;
+      };
+      dockerls = {
+        enable = true;
+      };
+      # eslint = {
+      #   enable = true;
+      # };
+      golangci-lint-ls = {
+        enable = true;
+      };
+      gopls = {
+        enable = true;
+      };
+      # html = {
+      #   enable = true;
+      # };
       lua-ls = {
+        enable = true;
+      };
+      marksman = {
+        enable = true;
+      };
+      nil-ls = {
+        enable = true;
+      };
+      pyright = {
+        enable = true;
+      };
+      sqls = {
+        enable = true;
+      };
+      tailwindcss = {
+        enable = true;
+      };
+      terraformls = {
+        enable = true;
+      };
+      tsserver = {
+        enable = true;
+      };
+      typos-lsp = {
+        enable = true;
+      };
+      yamlls = {
         enable = true;
       };
     };
