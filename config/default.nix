@@ -8,5 +8,8 @@
     ./lsp
     ./completion
     ./util
+    ./statusline
+    ./snippets
+    ./colorscheme
   ];
 }
