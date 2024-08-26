@@ -50,22 +50,22 @@
           desc = "Find project files";
         };
       };
-      "<leader>fr" = {
+      "<leader>fw" = {
         action = "live_grep";
         options = {
           desc = "Find text";
         };
       };
-      "<leader>fR" = {
+      "<leader>fr" = {
         action = "resume";
         options = {
-          desc = "Resume";
+          desc = "Find resume";
         };
       };
       "<leader>fo" = {
         action = "oldfiles";
         options = {
-          desc = "Recent";
+          desc = "Find old files";
         };
       };
       "<leader>fu" = {
@@ -77,97 +77,91 @@
       "<leader>fb" = {
         action = "buffers";
         options = {
-          desc = "Buffers";
+          desc = "Find buffers";
         };
       };
-      "<leader>gf" = {
+      "<leader>fgf" = {
         action = "git_files";
         options = {
-          desc = "Search git files";
+          desc = "Find git files";
         };
       };
-      "<leader>gc" = {
+      "<leader>fgc" = {
         action = "git_commits";
         options = {
-          desc = "Commits";
+          desc = "Find git commits";
         };
       };
-      "<leader>gs" = {
+      "<leader>fgs" = {
         action = "git_status";
         options = {
-          desc = "Status";
+          desc = "Find git status";
         };
       };
-      "<leader>sa" = {
+      "<leader>ha" = {
         action = "autocommands";
         options = {
-          desc = "Auto Commands";
+          desc = "Help auto Commands";
         };
       };
-      "<leader>sb" = {
+      "<leader>fB" = {
         action = "current_buffer_fuzzy_find";
         options = {
-          desc = "Buffer";
+          desc = "Find buffer fzf";
         };
       };
-      "<leader>sc" = {
+      "<leader>hC" = {
         action = "command_history";
         options = {
-          desc = "Command History";
+          desc = "Help command history";
         };
       };
-      "<leader>sC" = {
+      "<leader>hc" = {
         action = "commands";
         options = {
-          desc = "Commands";
+          desc = "Help commands";
         };
       };
-      "<leader>sD" = {
+      "<leader>fd" = {
         action = "diagnostics";
         options = {
-          desc = "Workspace diagnostics";
+          desc = "Find workspace diagnostics";
         };
       };
-      "<leader>sh" = {
+      "<leader>ht" = {
         action = "help_tags";
         options = {
-          desc = "Help pages";
+          desc = "Help tags";
         };
       };
-      "<leader>sH" = {
+      "<leader>hh" = {
         action = "highlights";
         options = {
-          desc = "Search Highlight Groups";
+          desc = "Help highlight groups";
         };
       };
-      "<leader>sk" = {
+      "<leader>hk" = {
         action = "keymaps";
         options = {
-          desc = "Keymaps";
+          desc = "Help keymaps";
         };
       };
-      "<leader>sM" = {
+      "<leader>hm" = {
         action = "man_pages";
         options = {
-          desc = "Man pages";
+          desc = "Help man pages";
         };
       };
-      "<leader>sm" = {
+      "<leader>fm" = {
         action = "marks";
         options = {
-          desc = "Jump to Mark";
+          desc = "Find mark";
         };
       };
-      "<leader>so" = {
+      "<leader>ho" = {
         action = "vim_options";
         options = {
-          desc = "Options";
-        };
-      };
-      "<leader>sR" = {
-        action = "resume";
-        options = {
-          desc = "Resume";
+          desc = "Help vim options";
         };
       };
       "<leader>th" = {
