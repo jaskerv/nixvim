@@ -2,27 +2,27 @@
   plugins.lsp = {
     enable = true;
     servers = {
-      # cssls = {
-      #   enable = true;
-      # };
+      cssls = {
+        enable = true;
+      };
       docker-compose-language-service = {
         enable = true;
       };
       dockerls = {
         enable = true;
       };
-      # eslint = {
-      #   enable = true;
-      # };
+      eslint = {
+        enable = true;
+      };
       golangci-lint-ls = {
         enable = true;
       };
       gopls = {
         enable = true;
       };
-      # html = {
-      #   enable = true;
-      # };
+      html = {
+        enable = true;
+      };
       lua-ls = {
         enable = true;
       };

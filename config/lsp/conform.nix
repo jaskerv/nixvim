@@ -1,62 +1,65 @@
 {
   plugins.conform-nvim = {
     enable = true;
-    formatOnSave = {
-      lspFallback = true;
-      timeoutMs = 500;
-    };
-    notifyOnError = true;
-    formattersByFt = {
-      liquidsoap = [ "liquidsoap-prettier" ];
-      html = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      css = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      javascript = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      javascriptreact = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      typescript = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      typescriptreact = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      python = [ "black" ];
-      lua = [ "stylua" ];
-      nix = [ "nixfmt" ];
-      markdown = [
-        [
-          "prettierd"
-          "prettier"
-        ]
-      ];
-      yaml = [
-        "yamllint"
-        "yamlfmt"
-      ];
+    settings = {
+      format_on_save = {
+        lsp_format = "fallback";
+        timeout_ms = 500;
+      };
+      notify_on_error = true;
+      notify_no_formatters = true;
+      formatters_by_ft = {
+        liquidsoap = [ "liquidsoap-prettier" ];
+        html = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        css = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        javascript = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        javascriptreact = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        typescript = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        typescriptreact = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        python = [ "black" ];
+        lua = [ "stylua" ];
+        nix = [ "nixfmt" ];
+        markdown = [
+          [
+            "prettierd"
+            "prettier"
+          ]
+        ];
+        yaml = [
+          "yamllint"
+          "yamlfmt"
+        ];
+      };
     };
   };
 }
