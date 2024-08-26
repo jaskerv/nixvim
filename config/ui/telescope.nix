@@ -5,7 +5,19 @@
       file-browser = {
         enable = true;
       };
+      frecency = {
+        enable = true;
+      };
       fzf-native = {
+        enable = true;
+      };
+      media-files = {
+        enable = true;
+      };
+      ui-select = {
+        enable = true;
+      };
+      undo = {
         enable = true;
       };
     };
@@ -54,6 +66,12 @@
         action = "oldfiles";
         options = {
           desc = "Recent";
+        };
+      };
+      "<leader>fu" = {
+        action = "undo";
+        options = {
+          desc = "Find Undo";
         };
       };
       "<leader>fb" = {
