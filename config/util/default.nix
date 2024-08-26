@@ -14,5 +14,6 @@
     ./undotree.nix
     ./yaml-companion.nix
     ./nvim-biscuit.nix
+    ./fzf-lua.nix
   ];
 }

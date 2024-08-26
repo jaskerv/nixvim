@@ -11,5 +11,6 @@
     ./statusline
     ./snippets
     ./colorscheme
+    ./git
   ];
 }
