@@ -9,7 +9,6 @@
       notify_on_error = true;
       notify_no_formatters = true;
       formatters_by_ft = {
-        liquidsoap = [ "liquidsoap-prettier" ];
         html = [
           [
             "prettierd"
@@ -46,9 +45,19 @@
             "prettier"
           ]
         ];
+        golang = [
+          "gofumpt"
+          "goimports-reviser"
+          "golines"
+        ];
+        terraform = [
+          "terraform_fmt"
+        ];
+        protobuf = [ "buf" ];
         python = [ "black" ];
         lua = [ "stylua" ];
         nix = [ "nixfmt" ];
+        sql = [ "sqlfluff" ];
         markdown = [
           [
             "prettierd"
