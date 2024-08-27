@@ -1,5 +1,8 @@
 {
   plugins = {
+    cmp-dictionary = {
+      enable = true;
+    };
     cmp-nvim-lsp = {
       enable = true;
     }; # lsp

@@ -9,5 +9,6 @@
     ./nvim-notify.nix
     ./precognition.nix
     ./telescope.nix
+    ./tmux-navigator.nix
   ];
 }

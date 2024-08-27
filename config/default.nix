@@ -12,5 +12,6 @@
     ./snippets
     ./colorscheme
     ./git
+    ./term
   ];
 }
