@@ -2,6 +2,9 @@
   plugins.lsp = {
     enable = true;
     servers = {
+      bufls = {
+        enable = true;
+      };
       cssls = {
         enable = true;
       };
