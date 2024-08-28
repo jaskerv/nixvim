@@ -158,6 +158,12 @@
           desc = "Find mark";
         };
       };
+      "<leader>fn" = {
+        action = "notify";
+        options = {
+          desc = "Find notification history";
+        };
+      };
       "<leader>ho" = {
         action = "vim_options";
         options = {
