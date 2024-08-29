@@ -4,6 +4,22 @@
   };
   keymaps = [
     {
+      mode = [ "n" ];
+      key = "<leader>h";
+      action = "<cmd>ToggleTerm direction=horizontal<cr>";
+      options = {
+        desc = "Toggle terminal horizontally";
+      };
+    }
+    {
+      mode = [ "n" ];
+      key = "<leader>v";
+      action = "<cmd>ToggleTerm direction=vertical<cr>";
+      options = {
+        desc = "Toggle terminal vertically";
+      };
+    }
+    {
       mode = [ "n" "t" ];
       key = "<M-h>";
       action = "<cmd>ToggleTerm direction=horizontal<cr>";
