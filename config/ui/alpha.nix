@@ -69,7 +69,7 @@
             [
               (mkButton "n" "<CMD>ene<CR>" "✨ New File" "Operator")
               (mkButton "f" "<CMD>lua require('telescope.builtin').find_files({hidden = true})<CR>" "🔍 Find File" "Operator")
-              (mkButton "e" "<CMD>Neotree source=filesystem toggle float<cr>" "📂 Open Project Explorer" "Operator")
+              (mkButton "e" "<CMD>Neotree source=filesystem toggle float<cr>" "📂 Open File Explorer" "Operator")
               (mkButton "o" "<CMD>Telescope oldfiles<cr>" "🎅 Open Recent Files" "Operator")
               (mkButton "q" "<CMD>qa<CR>" "💣 Quit Neovim" "String")
             ];
