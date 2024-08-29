@@ -70,7 +70,7 @@
     {
       mode = [ "n" "v" ];
       key = "<leader>y";
-      action = "[[\"+y]]";
+      action = "\"+y";
       options = {
         desc = "Yank to system clipboard";
       };
@@ -78,15 +78,15 @@
     {
       mode = "n";
       key = "<leader>Y";
-      action = "[[\"+Y]]";
+      action = "\"+Y";
       options = {
         desc = "Yank to system clipboard";
       };
     }
     {
-      mode = "n";
+      mode = [ "n" "v" ];
       key = "<leader>d";
-      action = "[[\"_d]]";
+      action = "\"_d";
       options = {
         desc = "Delete to void";
       };
