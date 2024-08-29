@@ -63,7 +63,7 @@
       cursorline = true; # Highlight the line where the cursor is located
 
       # Set fold settings
-      # These options were reccommended by nvim-ufo
+      # These options were recommended by nvim-ufo
       # See: https://github.com/kevinhwang91/nvim-ufo#minimal-configuration
       foldcolumn = "0";
       foldlevel = 99;
@@ -74,7 +74,7 @@
       scrolloff = 8;
 
       # Place a column line
-      # colorcolumn = "80";
+      colorcolumn = "80";
 
       # Reduce which-key timeout to 10ms
       timeoutlen = 10;
@@ -91,4 +91,3 @@
     };
   };
 }
-
