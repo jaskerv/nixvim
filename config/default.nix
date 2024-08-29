@@ -3,6 +3,7 @@
   imports = [
     ./mappings.nix
     ./sets.nix
+    ./performance.nix
     ./ui
     ./treesitter
     ./lsp

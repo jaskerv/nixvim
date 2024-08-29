@@ -1,0 +1,7 @@
+{
+  performance = {
+    byteCompileLua = {
+      enable = true;
+    };
+  };
+}
