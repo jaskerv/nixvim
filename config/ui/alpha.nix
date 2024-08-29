@@ -15,7 +15,7 @@
       layout = [
         {
           type = "padding";
-          val = 10;
+          val = 3;
         }
         {
           opts = {
@@ -27,7 +27,7 @@
         }
         {
           type = "padding";
-          val = 10;
+          val = 5;
         }
         {
           opts = {
