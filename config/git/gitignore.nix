@@ -1,0 +1,5 @@
+{
+  programs.gitignore = {
+    enable = true;
+  };
+}
