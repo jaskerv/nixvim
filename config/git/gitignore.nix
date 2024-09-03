@@ -1,5 +1,5 @@
 {
-  programs.gitignore = {
+  plugins.gitignore = {
     enable = true;
   };
 }
