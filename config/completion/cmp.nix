@@ -24,13 +24,16 @@
       sources = [
         { name = "dictionary"; }
         { name = "nvim_lsp"; }
+        { name = "nvim_lsp_document_symbol"; }
+        { name = "nvim_lsp_signature_help"; }
+        { name = "nvim_lua"; }
         { name = "emoji"; }
         {
           name = "buffer"; # text within current buffer
           option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
           keywordLength = 3;
         }
-        { name = "copilot"; }
+        # { name = "copilot"; }
         {
           name = "path"; # file system paths
           keywordLength = 3;
@@ -38,6 +41,9 @@
         {
           name = "luasnip"; # snippets
           keywordLength = 3;
+        }
+        {
+          name = "treesitter";
         }
       ];
 
